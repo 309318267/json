@@ -3,15 +3,15 @@
 * stringify()和parse()区别
 ### parse()
 #### parse用于从一个字符串中解析出json对象,如
-var str = '{"name":"huangxiaojian","age":"23"}'
-结果：
+var str = '{"name":"huangxiaojian","age":"23"}'      <br>
+结果：        <br>
 JSON.parse(str)
 
 Object
 
-age: "23"
-name: "huangxiaojian"
-__proto__: Object
+age: "23"        <br>
+name: "huangxiaojian"      <br>
+__proto__: Object       <br>
 注意：单引号写在{}外，每个属性名都必须用双引号，否则会抛出异常。
 
 ### stringify()
@@ -23,8 +23,8 @@ JSON.stringify(a)
 
 "{"a":1,"b":2}"
 
-3、json.stringify语法实例讲解
-语法： 
+3、json.stringify语法实例讲解        <br>
+语法：           <br>
 　　JSON.stringify(value [, replacer] [, space])    <br>
   
 value：是必选字段。就是你输入的对象，比如数组，类等。    <br>
