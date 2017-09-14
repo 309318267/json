@@ -34,3 +34,15 @@ var json = JSON.stringify(stuObj,stuArr);
 //var json = JSON.stringify(stuObj,stuArr,'OK '); 
 alert(json); 
 //{"id":"20122014001","age":"25"}
+
+var book = {
+    "title": "professional javascript",
+    "edition": 3,
+    "year": 2017,
+    toJSON:function(){
+        return this.title;
+    }
+}
+var jsonText = JSON.stringify(book);
+console.log(jsonText);
+//"professional javascript"
